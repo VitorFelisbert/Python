@@ -70,5 +70,21 @@ elif Temperatura <= 15:
 else:
     print("Temperatura Agradável")'''
 
-for i in range(1,6):
-    print("Número", i)
+
+'''
+for i in range(1, 6):
+    print("Número:", i )'''
+'''
+for i in range(1,11):
+    resultado = 5 * i 
+    print(f"5 x {i} = {resultado}")'''
+
+'''resposta = 0
+question = int(input("Numero:"))
+for i in range(1,question):
+    numAn = resposta
+    resposta = resposta + i
+    print(f"{numAn} + {i} = {resposta}")
+    '''
+   
+    
