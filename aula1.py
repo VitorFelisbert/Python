@@ -87,4 +87,5 @@ for i in range(1,question):
     print(f"{numAn} + {i} = {resposta}")
     '''
    
+   
     

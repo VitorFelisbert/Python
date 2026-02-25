@@ -45,8 +45,32 @@ consumo = int(input("Consumo do carro"))
 Calcular = Distancia / consumo
 print("Vc gastará no total: L", Calcular)'''
 
+#ex1.7
+
+#3.5
 
 
+'''negativos = 0
+for i in range(5):
+    numX = float(input("Digite o" +str(i+1)+"º:"))  
+    if numX < 0:  
+            negativos = negativos+1
+   
+print("Há", negativos,"números negativos" )'''
+
+#ex 3.10
+'''numero = int(input("Coloque um número"))
+primo = True 
+
+for i in range(2,numero):
+    if numero % i == 0:
+        primo = False 
+        break
+
+if primo:
+    print(numero, "é primo")
+else: 
+    print(numero, "não é primo")'''
 
 
 
