@@ -6,7 +6,7 @@ def clicar():
 janela = ctk.CTk()
 janela.geometry("400x300")
 
-botao = ctk.CTkButton(janela, text="Clique aqui", command=clicar, width=200, heigth=40)
+botao = ctk.CTkButton(janela, text="Clique aqui", command=clicar, width=200, height=40)
 
 botao.pack(pady=50)
 janela.mainloop()
