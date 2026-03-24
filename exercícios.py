@@ -46,6 +46,15 @@ Calcular = Distancia / consumo
 print("Vc gastará no total: L", Calcular)'''
 
 #ex1.7
+'''nota1 = int(input("nota:"))
+nota2 = int(input("nota:"))
+nota3 = int(input("nota:"))
+calcular = (nota1 + nota2 + nota3) / 3
+print("Sua média aritimética é", calcular)'''
+
+#ex1.8
+largura = int(input("largura:"))
+
 
 #3.5
 

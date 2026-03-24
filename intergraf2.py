@@ -15,20 +15,19 @@ janela.mainloop()'''
 '''
 import customtkinter as ctk
 
-def saudar():
-    resposta = "Olá, seja bem vindo ao Phyton"
+"Olá, seja bem vindo ao Phyton"
 
 janela = ctk.CTk
 janela.geometry("400x300")
 
-botao = ctk.CTkbutton(janela, text="Fechar", command=clicar , width=200, height=40 )
+botao = ctk.CTkbutton(janela, text="Fechar", command=, width=200, height=40 )
 
 botao.pack(pady=50)
 janela.mainloop()'''
 
 #ex5.2
 
-import customtkinter as ctk
+'''import customtkinter as ctk
 def calcularIMC():
     altura = float(entrada1.get()) 
     peso = float(entrada2.get())
@@ -59,4 +58,69 @@ saida.pack(pady=20)
 #Label
 #ValorIMC
 
-janela.mainloop()
+janela.mainloop()'''
+
+#Ex5.3
+
+'''import customtkinter as ctk
+def calcular():
+    temperatura = float(entrada1)
+    contaresu = (temperatura) * (9/5)+ 32
+    resultado = ("F =", contaresu)
+   
+
+saida = ctk.CTkLabel(janela , text= , font=("Arial",20))
+saida.pack(pady=20)
+
+janela = ctk.CTk()
+janela.title("Calcular F")
+janela.geometry("400x300")
+
+entrada1 = ctk.CTkEntry(janela, placeholder_text='Celsius', width= 200, height=40,)
+entrada1.pack(pady=20)
+
+botao = ctk.CTkButton(janela, text="Calcular", command=calcular, width=200, height=40)
+botao.pack(pady=20)
+
+janela.mainloop()'''
+#ex5.6
+
+'''import customtkinter as ctk
+
+def addtarefa():
+    texto = entrada.get()
+    tarefa =ctk.CTkLabel( janela, text=texto, font = ("Arial",20))
+    tarefa.pack(pady=10)  
+
+janela=ctk.CTk()
+janela.title("To do")
+janela.geometry("400x300")
+
+entrada = ctk.CTkEntry(janela, placeholder_text='tarefa', width= 200, height=40,)
+entrada.pack(pady=10)
+
+botao = ctk.CTkButton(janela, text="+", command= addtarefa, width=200, height=40)
+botao.pack(pady=10)
+
+janela.mainloop()'''
+
+#ex5.9
+'''import customtkinter as ctk
+import random
+def gerarSenha():
+    letersNumber = 'acbdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ123456789'
+    senha = ''
+    for numero in range(8):
+        senha = senha + letersNumber[random.randrange(0,61)]
+    saida.configure(text=senha)
+
+janela=ctk.CTk()
+janela.title("Gerador senhas")
+janela.geometry("400x300")
+
+botao = ctk.CTkButton(janela, text='Gerar senha', command= gerarSenha, width=200, height=40)
+botao.pack(pady=10)
+
+saida = ctk.CTkLabel(janela, text = "",  font="Arial",20)
+
+janela.mainloop()'''
